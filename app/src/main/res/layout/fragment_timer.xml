@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?android:attr/colorBackground"
+    android:paddingHorizontal="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temporizador"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="?attr/colorOnBackground"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp" />
+
+    <!-- Pickers card -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_pickers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="0dp"
+        app:strokeWidth="0dp"
+        app:cardBackgroundColor="?attr/colorSurface">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingVertical="20dp"
+            android:paddingHorizontal="16dp">
+
+            <!-- Label row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:text="Horas"
+                    android:textSize="12sp" android:textColor="@color/ios_secondary_label"
+                    android:gravity="center" />
+                <View android:layout_width="24dp" android:layout_height="1dp"/>
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:text="Minutos"
+                    android:textSize="12sp" android:textColor="@color/ios_secondary_label"
+                    android:gravity="center" />
+                <View android:layout_width="24dp" android:layout_height="1dp"/>
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:text="Segundos"
+                    android:textSize="12sp" android:textColor="@color/ios_secondary_label"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <!-- Pickers row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <NumberPicker
+                    android:id="@+id/np_hours"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:textColor="?attr/colorOnSurface"
+                    android:paddingHorizontal="6dp" />
+
+                <NumberPicker
+                    android:id="@+id/np_minutes"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:textColor="?attr/colorOnSurface"
+                    android:paddingHorizontal="6dp" />
+
+                <NumberPicker
+                    android:id="@+id/np_seconds"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Running display card -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="0dp"
+        app:strokeWidth="0dp"
+        app:cardBackgroundColor="?attr/colorSurface">
+
+        <TextView
+            android:id="@+id/tv_timer_display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00:00:00"
+            android:textSize="68sp"
+            android:fontFamily="sans-serif-light"
+            android:letterSpacing="-0.02"
+            android:textColor="@color/ios_green"
+            android:gravity="center"
+            android:paddingVertical="44dp"
+            android:visibility="gone" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Spacer -->
+    <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" />
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp">
+
+        <Button
+            android:id="@+id/btn_timer_reset"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:text="Reiniciar"
+            android:textSize="16sp"
+            android:backgroundTint="@color/btn_secondary"
+            android:textColor="?attr/colorOnBackground"
+            style="@style/Widget.Material3.Button" />
+
+        <Button
+            android:id="@+id/btn_timer_start_pause"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:text="Iniciar"
+            android:textSize="16sp"
+            android:backgroundTint="@color/ios_blue"
+            style="@style/Widget.Material3.Button" />
+    </LinearLayout>
+
+</LinearLayout>

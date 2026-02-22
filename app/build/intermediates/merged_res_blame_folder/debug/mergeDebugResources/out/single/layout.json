@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.example.relojmejorado.app-mergeDebugResources-31:/layout/fragment_alarm.xml",
+        "source": "com.example.relojmejorado.app-main-34:/layout/fragment_alarm.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-mergeDebugResources-31:/layout/fragment_timer.xml",
+        "source": "com.example.relojmejorado.app-main-34:/layout/fragment_timer.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-mergeDebugResources-31:/layout/dialog_alarm_label.xml",
+        "source": "com.example.relojmejorado.app-main-34:/layout/dialog_alarm_label.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-mergeDebugResources-31:/layout/fragment_stopwatch.xml",
+        "source": "com.example.relojmejorado.app-main-34:/layout/fragment_stopwatch.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-mergeDebugResources-31:/layout/item_saved_time.xml",
+        "source": "com.example.relojmejorado.app-main-34:/layout/item_saved_time.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-mergeDebugResources-31:/layout/fragment_clock.xml",
+        "source": "com.example.relojmejorado.app-main-34:/layout/fragment_clock.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-mergeDebugResources-31:/layout/dialog_save_time.xml",
+        "source": "com.example.relojmejorado.app-main-34:/layout/dialog_save_time.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-mergeDebugResources-31:/layout/activity_main.xml",
+        "source": "com.example.relojmejorado.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-mergeDebugResources-31:/layout/item_alarm.xml",
+        "source": "com.example.relojmejorado.app-main-34:/layout/item_alarm.xml"
+    }
+]

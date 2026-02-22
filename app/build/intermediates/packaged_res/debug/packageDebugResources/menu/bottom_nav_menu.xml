@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_clock"
+        android:icon="@drawable/ic_clock"
+        android:title="Reloj" />
+
+    <item
+        android:id="@+id/nav_stopwatch"
+        android:icon="@drawable/ic_stopwatch"
+        android:title="Cronómetro" />
+
+    <item
+        android:id="@+id/nav_timer"
+        android:icon="@drawable/ic_timer"
+        android:title="Temporizador" />
+
+    <item
+        android:id="@+id/nav_alarm"
+        android:icon="@drawable/ic_alarm"
+        android:title="Alarma" />
+
+</menu>

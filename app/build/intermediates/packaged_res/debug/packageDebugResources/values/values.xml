@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="clock_face_dark">#1C1C1E</color>
+    <color name="clock_hands_light">#2C2C2E</color>
+    <color name="clock_numbers_dark">#FFFFFF</color>
+    <color name="clock_numbers_light">#000000</color>
+    <color name="clock_ticks_dark">#FFFFFF</color>
+    <color name="clock_ticks_light">#8E8E93</color>
+    <color name="ios_bg_primary">#F2F2F7</color>
+    <color name="ios_bg_surface">#FFFFFF</color>
+    <color name="ios_blue">#007AFF</color>
+    <color name="ios_dark_bg_primary">#000000</color>
+    <color name="ios_dark_bg_surface">#1C1C1E</color>
+    <color name="ios_dark_bg_tertiary">#2C2C2E</color>
+    <color name="ios_dark_label">#FFFFFF</color>
+    <color name="ios_fill_dark">#3A3A3C</color>
+    <color name="ios_fill_light">#E5E5EA</color>
+    <color name="ios_green">#34C759</color>
+    <color name="ios_label">#000000</color>
+    <color name="ios_orange">#FF9500</color>
+    <color name="ios_red">#FF3B30</color>
+    <color name="ios_secondary_label">#8E8E93</color>
+    <color name="ios_yellow">#FFCC00</color>
+    <color name="nav_indicator">#1A007AFF</color>
+    <string name="app_name">relojMejorado</string>
+    <style name="Theme.RelojMejorado" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/ios_blue</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorPrimaryContainer">#DDEEFF</item>
+        <item name="colorOnPrimaryContainer">@color/ios_blue</item>
+        <item name="colorSecondary">@color/ios_green</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        <item name="android:colorBackground">@color/ios_bg_primary</item>
+        <item name="colorOnBackground">@color/ios_label</item>
+        <item name="colorSurface">@color/ios_bg_surface</item>
+        <item name="colorOnSurface">@color/ios_label</item>
+        <item name="colorSurfaceVariant">@color/ios_bg_primary</item>
+        <item name="colorOnSurfaceVariant">@color/ios_secondary_label</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="itemActiveIndicatorStyle">@style/Widget.App.BottomNavigationView.Indicator</item>
+        <item name="android:navigationBarColor">@color/ios_bg_surface</item>
+    </style>
+    <style name="Widget.App.BottomNavigationView.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/nav_indicator</item>
+    </style>
+</resources>

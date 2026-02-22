@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- iOS System colors -->
+    <color name="ios_blue">#007AFF</color>
+    <color name="ios_green">#34C759</color>
+    <color name="ios_red">#FF3B30</color>
+    <color name="ios_orange">#FF9500</color>
+    <color name="ios_yellow">#FFCC00</color>
+
+    <!-- Light backgrounds -->
+    <color name="ios_bg_primary">#F2F2F7</color>
+    <color name="ios_bg_surface">#FFFFFF</color>
+
+    <!-- Dark backgrounds -->
+    <color name="ios_dark_bg_primary">#000000</color>
+    <color name="ios_dark_bg_surface">#1C1C1E</color>
+    <color name="ios_dark_bg_tertiary">#2C2C2E</color>
+
+    <!-- Labels -->
+    <color name="ios_label">#000000</color>
+    <color name="ios_dark_label">#FFFFFF</color>
+    <color name="ios_secondary_label">#8E8E93</color>
+
+    <!-- Fills -->
+    <color name="ios_fill_light">#E5E5EA</color>
+    <color name="ios_fill_dark">#3A3A3C</color>
+
+    <!-- Nav indicator overlay -->
+    <color name="nav_indicator">#1A007AFF</color>
+
+    <!-- Clock colors -->
+    <color name="clock_face_dark">#1C1C1E</color>
+    <color name="clock_hands_light">#2C2C2E</color>
+    <color name="clock_ticks_dark">#FFFFFF</color>
+    <color name="clock_ticks_light">#8E8E93</color>
+    <color name="clock_numbers_dark">#FFFFFF</color>
+    <color name="clock_numbers_light">#000000</color>
+</resources>

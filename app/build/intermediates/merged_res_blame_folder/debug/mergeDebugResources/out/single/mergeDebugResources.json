@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/layout_fragment_stopwatch.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/layout/fragment_stopwatch.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/xml_backup_rules.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/color_btn_secondary.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/color/btn_secondary.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/drawable_ic_clock.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/drawable/ic_clock.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/layout_fragment_clock.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/layout/fragment_clock.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/drawable_ic_sun.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/drawable/ic_sun.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/drawable_ic_alarm.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/drawable/ic_alarm.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.relojmejorado.app-main-34:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/drawable_bg_rank.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/drawable/bg_rank.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.relojmejorado.app-main-34:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/drawable_bg_round_btn.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/drawable/bg_round_btn.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.relojmejorado.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/layout_item_alarm.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/layout/item_alarm.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.relojmejorado.app-main-34:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/drawable_ic_analog.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/drawable/ic_analog.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/drawable_ic_add.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/layout_fragment_timer.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/layout/fragment_timer.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.relojmejorado.app-main-34:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/drawable_ic_moon.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/drawable/ic_moon.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/layout_item_saved_time.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/layout/item_saved_time.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/layout_fragment_alarm.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/layout/fragment_alarm.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/layout_dialog_alarm_label.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/layout/dialog_alarm_label.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.relojmejorado.app-main-34:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.relojmejorado.app-main-34:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.relojmejorado.app-main-34:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/layout_activity_main.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.relojmejorado.app-main-34:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.relojmejorado.app-main-34:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/drawable_ic_stopwatch.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/drawable/ic_stopwatch.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/drawable_ic_sort_desc.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/drawable/ic_sort_desc.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/drawable_ic_delete.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/layout_dialog_save_time.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/layout/dialog_save_time.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/drawable_ic_sort_asc.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/drawable/ic_sort_asc.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/drawable_ic_timer.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/drawable/ic_timer.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/color_selector_nav_item.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/color/selector_nav_item.xml"
+    },
+    {
+        "merged": "com.example.relojmejorado.app-debug-32:/drawable_ic_digital.xml.flat",
+        "source": "com.example.relojmejorado.app-main-34:/drawable/ic_digital.xml"
+    }
+]

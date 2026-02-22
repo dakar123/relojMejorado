@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.RelojMejorado" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/ios_blue</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorPrimaryContainer">#001A33</item>
+        <item name="colorOnPrimaryContainer">@color/ios_blue</item>
+        <item name="colorSecondary">@color/ios_green</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        <item name="android:colorBackground">@color/ios_dark_bg_primary</item>
+        <item name="colorOnBackground">@color/ios_dark_label</item>
+        <item name="colorSurface">@color/ios_dark_bg_surface</item>
+        <item name="colorOnSurface">@color/ios_dark_label</item>
+        <item name="colorSurfaceVariant">@color/ios_dark_bg_tertiary</item>
+        <item name="colorOnSurfaceVariant">@color/ios_secondary_label</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="itemActiveIndicatorStyle">@style/Widget.App.BottomNavigationView.Indicator</item>
+        <item name="android:navigationBarColor">@color/ios_dark_bg_surface</item>
+    </style>
+    <style name="Widget.App.BottomNavigationView.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/nav_indicator</item>
+    </style>
+</resources>
